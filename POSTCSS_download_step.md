@@ -11,3 +11,9 @@ And then go to package.json file and add this:
 "scripts": {
     "start": "vite"
 },
+
+And then finally create "main.css" file and add this:👇
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
