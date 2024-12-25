@@ -5,3 +5,9 @@
 like this:
 
 content: ["*"],
+
+And then go to package.json file and add this:
+
+"scripts": {
+    "start": "vite"
+},
