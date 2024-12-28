@@ -81,26 +81,29 @@
     class="relative bg-deepBlue">
 
 
-    <div class="w-10/12 flex flex-row justify-between items-center mx-auto">
+    <!-- normal case mai width w-10/12 o gi but worse case m jahan kahi kuch khrab hony wala hoga wahan pr max-w-[1080] hogi...-->
+    <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
             <!-- Left div -->
-             <div class="flex flex-col gap-4">
+             <div class="space-y-6">
+                <!-- Line height ko hum yahan leading kehty hain... -->
                 <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance , grow your business</h1>
                 <div class="w-6 h-1 bg-greenLight"></div>
-                <p>
+                <!-- font sixe ki jahan hum log text-[] size use krty hain -->
+                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Consequuntur recusandae rem velit.
                 </p>
-                <button>Sign Up Now</button>
+                <button class=" px-3 py-4 bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue transition-all duration-200 ">Sign Up Now</button>
              </div>
 
              <!-- Right div -->
-             <img src="./images/hero-illustration.jpg " alt="">
+             <img src="./images/hero-illustration.jpg " alt="" class="max-w-[680px]">
 
              <!-- Shape part -->
 
-             <div>
+             <!-- <div>
                 <img src="./images/hero-shape.svg" alt="">
-             </div>
+             </div> -->
 
     </div>
 
