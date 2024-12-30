@@ -732,51 +732,95 @@
       <!-- jb e hum image pr pohnchy tb hi wo load ho..ta k hmri performance achi o jye so we will add lazy loading in image... -->
       <div class="w-full min-h[440px] flex relative">
         <img src="./images/x-flame-1.png" alt="" loading="lazy" class="absolute -top-[142px] left-[140px] w-[200px]" >
-        <img src="./images/x-flame-2.png" alt="" loading="lazy" />
+        <img src="./images/x-flame-2.png" alt="" loading="lazy" class="absolute top-[150px] right-[180px] w-[270px]">
 
         <!-- Content box -->
-        <div>
-          <!-- left part -->
-          <div>
-            <!-- text part -->
-            <h3>Manage your company's finance with
-                <img src="./images/razorpayX.svg" alt="">
-                <span>Business Banking</span>
+        <div
+          class="min-h-[520px] bg-white flex mx-auto -rounded p-10 py-12 border"
+        >
+          <!-- left sections -->
+          <div class="flex flex-col justify-between w-full">
+            <h3
+              class="font-mullish font-bold text-[28px] leading-10 max-w-[500px]"
+            >
+              Supercharge your business with the all powerfull
+              <span class="text-lightBlue">Payment Gateway</span>
             </h3>
-            <ul>
-              <li>
-                <i></i>
-                <span>Open a fully digital current account</span>
+            <ul class="space-y-2 mt-10 mb-10">
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <!-- <img src="./images/check.svg" class="text-greenLight" -->
+                <span>100+ Payment Methods</span>
               </li>
-              <li>
-                <i></i>
-                <span>Open a fully digital current account</span>
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Industry leading success rate</span>
               </li>
-              <li>
-                <i></i>
-                <span>Open a fully digital current account</span>
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Superior Checkout Experience</span>
               </li>
-              <li>
-                <i></i>
-                <span>Open a fully digital current account</span>
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Easy to integrate</span>
+              </li>
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Instant settlements from day 1</span>
+              </li>
+              <li class="font-mullish flex space-x-2 items-center">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Indepth Reporting and Insights</span>
               </li>
             </ul>
 
-            <div>
-              <button>Sign Up</button>
-              <!-- hyper link part -->
-              <div>
-                <a href="#">Know More</a>
-                <i></i>
+            <!-- For button and hyperlink -->
+
+            <div
+              class="flex flex-col-reverse md:flex-row items-center space-x-4"
+            >
+              <button
+                class="bg-lightBlue w-fit px-[8px] py-[14px] rounded-md font-mullish font-bold hover:bg-lightBlue500 text-white transition-all duration-200 flex items-center"
+              >
+                Sign Up Now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-4 h-4 ml-2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+              <div class="flex md:items-center cursor-pointer group">
+                <a
+                  href="#"
+                  class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
+                  >Know More</a
+                >
+                <i
+                  data-feather="chevron-right"
+                  class="group-hover:text-grayBlue transition-all duration-200 w-5 h-5"
+                ></i>
               </div>
             </div>
           </div>
 
-          <!-- right part -->
+          <!-- right section -->
 
-          <img src="./images/buisness-banking.png" alt="">
+          <img
+            src="./images/payment-suite.png"
+            alt=""
+            class="max-w-[600px] bottom-0 right-0"
+          />
+        </div>
 
-        </div>  
       </div>
     </section>
 
