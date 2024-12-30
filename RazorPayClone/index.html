@@ -777,42 +777,25 @@
               class="flex flex-col-reverse md:flex-row items-center space-x-4"
             >
               <button
-                class="bg-lightBlue w-fit px-[8px] py-[14px] rounded-md font-mullish font-bold hover:bg-lightBlue500 text-white transition-all duration-200 flex items-center relative"
+                class="relative bg-lightBlue flex items-center 
+                place-content-center     text-white py-[14px] px-[18px] md:pr-[90px] rounded-md
+                 font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200
+                 self-stretch md:w-fit"
               >
                 Sign Up Now
-                <div class="w-12 h-[60px] bg-greenLight absolute right-6 flex items-center justify-center skew-x-[20deg] ">
-                    
-                <!-- Dono mai sy mai koi b arrow use kr skti o.. -->
-
-                <!-- Arrow -->
-                            <!-- <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-4 h-4 ml-2"
-                        >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                        />
-                            </svg> -->
-
-
-                        <!--arrow-->
-                        <svg
-                        viewBox="0 0 24 24"
-                        focusable="false"
-                        class="w-[20px] h-[20px] -skew-x-[20deg] "
-                    >
-                        <path
-                        fill="currentColor"
-                        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        ></path>
-                    </svg>
-
+                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] 
+                flex justify-center items-center">
+                    <!--arrow-->
+                    <svg
+                    viewBox="0 0 24 24"
+                    focusable="false"
+                    class="w-[20px] h-[20px] -skew-x-[20deg] "
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    ></path>
+                  </svg>
               </button>
               <div class="flex md:items-center cursor-pointer group">
                 <a
@@ -824,8 +807,6 @@
                   data-feather="chevron-right"
                   class="group-hover:text-grayBlue transition-all duration-200 w-5 h-5"
                 ></i>
-                </div>
-                
               </div>
             </div>
           </div>
