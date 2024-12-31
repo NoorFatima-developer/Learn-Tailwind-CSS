@@ -223,9 +223,14 @@
       <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         <!-- Heading -->
         <h2
-          class="font-mullish font-extrabold text-center text-2xl leading-[1.2]"
+          class="font-mullish font-extrabold text-center text-2xl leading-[1.2] md:block hidden"
         >
           Accept Payments with Razorpay Payment Suit
+        </h2>
+        <h2
+          class="font-mullish font-extrabold text-center text-2xl leading-[1.2] md:hidden block"
+        >
+          Explore Payments with Razorpay Payment Suit
         </h2>
         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
@@ -272,10 +277,10 @@
             <!-- For button and hyperlink -->
 
             <div
-              class="flex flex-col-reverse md:flex-row items-center space-x-4"
+              class="flex md:flex-row flex-col-reverse items-center md:space-x-4"
             >
               <button
-                class="bg-lightBlue w-fit px-[8px] py-[14px] rounded-md font-mullish font-bold hover:bg-lightBlue500 text-white transition-all duration-200 flex items-center"
+                class="bg-lightBlue px-[8px] py-[14px] rounded-md font-mullish font-bold hover:bg-lightBlue500 text-white transition-all duration-200 flex items-center w-full md:w-fit "
               >
                 Sign Up Now
                 <svg
@@ -293,7 +298,7 @@
                   />
                 </svg>
               </button>
-              <div class="flex md:items-center cursor-pointer group">
+              <div class="flex md:self-center cursor-pointer group self-start">
                 <a
                   href="#"
                   class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
