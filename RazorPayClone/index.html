@@ -1260,10 +1260,10 @@
     <!-- Join razorpay section -->
 
     <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
-      <div class="w-11/12 max-w-[1080px] mx-auto relative pt flex md:flex-row flex-col">
+      <div class="w-11/12 max-w-[1080px] mx-auto relative pt flex md:flex-row flex-col  my-16">
         <!-- left part -->
 
-        <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+        <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] ">
             <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead">Join the 50,000+ businesses using Razorpay</h2>
             <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
             <p class="font-mullish opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis rerum quas repudiandae ratione dolores ex enim, quod qui quia.</p>
@@ -1271,7 +1271,7 @@
         </div>
 
         <!-- right part -->
-          <div class="relative overflow-y-hidden w-[500px] h-[500px]">
+          <div class="relative mx-auto overflow-y-hidden w-[500px] h-[500px]">
             <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] top-0 z-50" ></div>
             <img src="./images/comanies.png" alt="" class="absolute h-auto object-cover moveImage">
             <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] bottom-0 z-50"></div>
@@ -1312,7 +1312,7 @@
 
       <!-- Main content -->
 
-      <div class="flex flex-row w-full max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
+      <div class="flex flex-col xl:flex-row w-full max-w-[960px] items-center mx-auto my-20 space-x-[10rem] ">
           <!-- left div -->
 
           <img src="./images/testimonial.jpg" alt=""
@@ -1322,12 +1322,12 @@
 
           <!-- right div -->
 
-          <div class="max-w-[400px] ">
-            <img src="./images/quotes.svg" alt="" width="35px" height="40px" -mb-2>
-            <p class="font-mullish text-3xl font-extralight opacity-60">ReadyMade Closed Wallet </p>
-            <p>Solution For Quick Refunds</p>
-            <a href="#" class="text-grayText italic underline">Learn More</a>
-            <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
+          <div class="max-w-[400px] flex flex-col my-10 ">
+            <img src="./images/quotes.svg" alt="" width="35px" height="40px" class="-mb-2 xl:order-1" >
+            <p class="font-mullish text-3xl font-extralight opacity-60 xl:order-1">ReadyMade Closed Wallet </p>
+            <p class="xl:order-1">Solution For Quick Refunds</p>
+            <a href="#" class="text-grayText italic underline xl:order-1">Learn More</a>
+            <p class="font-mullish font-extrabold text-2xl -order-1 xl:order-1">Lorem Ipsum</p>
             <p class="font-mullish font-medium">CEO XYZ Engineering Company</p>
             <img src="./images/fake-company-logo.png" alt="" width="80px" height="40px">
           </div>
@@ -1353,8 +1353,8 @@
   <!-- CTA -->
 
   <!-- Main content box -->
-  <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[510px]">
-    <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center space-x-2 justify-between mx-auto pt-16">
+  <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[510px] ">
+    <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center space-x-2 justify-between mx-auto pt-16 ">
       <!-- left part div -->
         <div class="flex flex-col mt-9 gap-4 max-w-[600px]">
           <h2 class="font-mullish font-bold text-white text-2xl">Supercharge your business with Razorpay</h2>
@@ -1397,7 +1397,7 @@
 
       <!-- right part div -->
 
-        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3 hidden lg:block">
+        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="pt-3 hidden lg:block mt-16">
 
     </div>
   </section>
